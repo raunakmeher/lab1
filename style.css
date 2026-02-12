@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: white;
+}
+
+.pattern {
+  display: grid;
+  grid-template-columns: repeat(6, 70px);
+  grid-gap: 10px;
+}
+
+.box {
+  width: 70px;
+  height: 70px;
+}
+
+.orange {
+  background-color: #ff7a00;
+}
+
+.peach {
+  background-color: #ffb77c;
+}
+
+.brown {
+  background-color: #9c4a00;
+}
